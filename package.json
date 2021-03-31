@@ -2,12 +2,12 @@
   "name": "http-lab",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "node-server.js",
   "scripts": {
     "test": "jest --verbose --runInBand",
     "test:watch": "npm run test -- --watch",
-    "start": "node server.js",
-    "start:watch": "nodemon server.js"
+    "start": "node node-server.js",
+    "start:watch": "nodemon node-server.js"
   },
   "jest": {
     "testEnvironment": "node"
